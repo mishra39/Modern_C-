@@ -16,7 +16,8 @@ int main()
 	array[3] = 1;
 	array[4] = 1;
 //For allocating memory on heap:
-//
+//heap allocation is more involving than stack
+//only use heap when you cannot use stack for any reason 
 	int* hvalue = new int;
 	*hvalue = 5;
 	int* harray = new int[5];
